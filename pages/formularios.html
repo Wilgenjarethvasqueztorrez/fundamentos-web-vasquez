@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Wilgen</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    
+</head>
+<body>
+
+       
+    <header>
+        <nav>
+            <ul style="display: flex; gap: 1rem; list-style: none; padding: 0;">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="formularios.html">Formulario</a></li>
+                <li><a href="listas.html">Listas</a></li>
+                <li><a href="multimedia.html">Multimedia</a></li>
+                <li><a href="semantica.html">Semantica</a></li>
+                <li><a href="tablas.html">Tabla</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <h1>Portafolio Web Interactivo</h1>
+    <form action="#" method="post" style="max-width:500px;margin:auto;padding:20px;border:1px solid #cccccc;border-radius:8px;background:#178ef0;">
+        <label for="nombre">Nombre completo:</label><br>
+        <input type="text" id="nombre" name="nombre" required minlength="3" maxlength="50" style="width:100%;padding:8px;margin-bottom:10px;"><br>
+
+        <label for="email">Correo electrónico:</label><br>
+        <input type="email" id="email" name="email" required style="width:100%;padding:8px;margin-bottom:10px;"><br>
+
+        <label for="password">Contraseña:</label><br>
+        <input type="password" id="password" name="password" required minlength="6" style="width:100%;padding:8px;margin-bottom:10px;"><br>
+
+        <label for="fecha">Fecha de nacimiento:</label><br>
+        <input type="date" id="fecha" name="fecha" required style="width:100%;padding:8px;margin-bottom:10px;"><br>
+
+        <label for="especialidad">Especialidad:</label><br>
+        <select id="especialidad" name="especialidad" required style="width:100%;padding:8px;margin-bottom:10px;">
+            <option value="">Seleccione una opción</option>
+            <option value="frontend">Frontend</option>
+            <option value="backend">Backend</option>
+            <option value="fullstack">Fullstack</option>
+            <option value="uiux">UI/UX</option>
+        </select><br>
+
+        <label for="descripcion">Descripción de tu experiencia:</label><br>
+        <textarea id="descripcion" name="descripcion" rows="4" required minlength="10" maxlength="300" style="width:100%;padding:8px;margin-bottom:10px;"></textarea><br>
+
+        <input id="btn-enviar" type="submit" value="Enviar">
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Wilgen</title>
+    <link rel="stylesheet" href="../styles/main.css">
+</head>
+<body>
+
+       
+    <header>
+        <nav>
+            <ul style="display: flex; gap: 1rem; list-style: none; padding: 0;">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="formularios.html">Formulario</a></li>
+                <li><a href="listas.html">Listas</a></li>
+                <li><a href="multimedia.html">Multimedia</a></li>
+                <li><a href="semantica.html">Semantica</a></li>
+                <li><a href="tablas.html">Tabla</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <header>
+        <h1>Portafolio Multimedia</h1>
+        <p>Imágenes, video, audio y galería responsiva usando HTML y CSS.</p>
+    </header>
+
+    <section>
+        <h2>Imagen Destacada</h2>
+        <figure>
+            <img src="../assets/images/codigo.png" alt="Codigo" style="max-width:100%;height:auto;">
+            <figcaption>Codigo.</figcaption>
+        </figure>
+    </section>
+
+    <section>
+        <h2>Video de Presentación</h2>
+        <figure>
+            <video controls width="450" height="300">
+                <source src="../assets/videos/VID_20250523_220231.mp4" type="video/mp4">
+            </video>
+            <figcaption>Video en formato MP4.</figcaption>
+        </figure>
+    </section>
+
+    <section>
+        <h2>Audio de Fondo</h2>
+        <figure>
+            <audio controls>
+                <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+            </audio>
+            <figcaption>Audio de ejemplo en formato MP3.</figcaption>
+        </figure>
+    </section>
+
+    <section>
+        <h2>Galería de Imágenes</h2>
+        <div class="gallery">
+            <figure>
+                <img src="../assets/images/cuaderno.png" alt="Bosque" />
+                <figcaption>Libreta</figcaption>
+            </figure>
+            <figure>
+                <img src="../assets/images/computadora.png" alt="Lago" />
+                <figcaption>Computadora</figcaption>
+            </figure>
+            <figure>
+                <img src="../assets/images/reunion.png" alt="Desierto" />
+                <figcaption>Reunion</figcaption>
+            </figure>
+            <figure>
+                <img src="../assets/images/tazon de frutas.png" alt="Montaña" />
+                <figcaption>Tazon de fruta</figcaption>
+            </figure>
+        </div>
+    </section>
+
+    <style>
+     h2 {
+        color: #000000;
+    }
+   
+    </style>
+
+</body>
+</html>

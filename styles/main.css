@@ -259,6 +259,14 @@ ol li:hover {
     margin-top: 0.5em;
 }
 
+#texto-multimedia {
+    color: #000000;
+}
+
+#p-multimedia {
+   margin-left: 20px;
+}
+
 figure {
     margin: 0 0 1rem 0;
     background: #fff;
@@ -449,9 +457,11 @@ a:hover {
     .main-section__content {
         gap: 3em;
     }
+
     .header {
         padding: 3em 0 2em 0;
     }
+
     .footer {
         padding: 2em 0 1.5em 0;
     }
@@ -470,10 +480,12 @@ a:hover {
         gap: 3em;
     }
 }
+
 @media (max-width: 600px) {
     body {
         padding: 0.5rem;
     }
+
     .gallery {
         grid-template-columns: 1fr;
     }
@@ -481,6 +493,7 @@ a:hover {
 
 /*tablas.html*/
 @media (max-width: 700px) {
+
     table,
     thead,
     tbody,
@@ -489,19 +502,23 @@ a:hover {
     tr {
         display: block;
     }
+
     thead tr {
         display: none;
     }
+
     tr {
         margin-bottom: 1rem;
         border-bottom: 2px solid #eee;
     }
+
     td {
         border: none;
         position: relative;
         padding-left: 50%;
         min-height: 2.5rem;
     }
+
     td:before {
         position: absolute;
         left: 1rem;
@@ -512,12 +529,15 @@ a:hover {
         color: #555;
         content: attr(data-label);
     }
+
     tfoot td {
         display: block;
         border: none;
     }
 }
+
 @media (max-width: 600px) {
+
     table,
     thead,
     tbody,
@@ -526,13 +546,16 @@ a:hover {
     tr {
         display: block;
     }
+
     th,
     td {
         padding: 0.7em 0.5em;
     }
+
     th {
         background: var(--color-accent-light);
     }
+
     tr {
         margin-bottom: 1em;
     }

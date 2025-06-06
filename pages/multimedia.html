@@ -8,7 +8,6 @@
 </head>
 <body>
 
-       
     <header>
         <nav>
             <ul style="display: flex; gap: 1rem; list-style: none; padding: 0;">
@@ -24,11 +23,11 @@
     
     <header>
         <h1>Portafolio Multimedia</h1>
-        <p>Imágenes, video, audio y galería responsiva usando HTML y CSS.</p>
+        <p id="p-multimedia">Imágenes, video, audio y galería responsiva usando HTML y CSS.</p>
     </header>
 
     <section>
-        <h2>Imagen Destacada</h2>
+        <h2 id="texto-multimedia">Imagen Destacada</h2>
         <figure>
             <img src="../assets/images/codigo.png" alt="Codigo" style="max-width:100%;height:auto;">
             <figcaption>Codigo.</figcaption>
@@ -36,7 +35,7 @@
     </section>
 
     <section>
-        <h2>Video de Presentación</h2>
+        <h2 id="texto-multimedia">Video de Presentación</h2>
         <figure>
             <video controls width="450" height="300">
                 <source src="../assets/videos/VID_20250523_220231.mp4" type="video/mp4">
@@ -46,17 +45,17 @@
     </section>
 
     <section>
-        <h2>Audio de Fondo</h2>
+        <h2 id="texto-multimedia">Audio</h2>
         <figure>
             <audio controls>
                 <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
             </audio>
-            <figcaption>Audio de ejemplo en formato MP3.</figcaption>
+            <figcaption>Audio en formato MP3.</figcaption>
         </figure>
     </section>
 
     <section>
-        <h2>Galería de Imágenes</h2>
+        <h2 id="texto-multimedia">Galería de Imágenes</h2>
         <div class="gallery">
             <figure>
                 <img src="../assets/images/cuaderno.png" alt="Bosque" />
@@ -76,13 +75,6 @@
             </figure>
         </div>
     </section>
-
-    <style>
-     h2 {
-        color: #000000;
-    }
-   
-    </style>
 
 </body>
 </html>

@@ -175,11 +175,13 @@ form textarea:focus {
 }
 
 #dt {
-    margin-left: 1.50em;
+    margin-left: 1.5em;
+    display: block;
 }
 
 #dd {
     margin-left: 3em;
+    display: block;
 }
 
 #texto-listas {

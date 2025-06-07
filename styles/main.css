@@ -264,7 +264,9 @@ ol li:hover {
 }
 
 #p-multimedia {
-   margin-left: 250px;
+   
+    text-align: center;
+    
 }
 
 figure {

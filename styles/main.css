@@ -133,7 +133,7 @@ form textarea {
     border-radius: 0.5em;
     font-size: 1rem;
     background: var(--color-bg);
-    background-color: #eaeaee;
+    background-color: #d6d6d6;
     color: var(--color-text);
     transition: border-color 0.2s;
 }

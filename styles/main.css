@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(135deg, #403d64 0%, #415a77 100%);
+    background: linear-gradient(135deg, rgb(255, 255, 255) 0%, #78828b 100%);
     min-height: 100vh;
     margin: 0;
 }
@@ -62,6 +62,13 @@ body {
     min-width: 260px;
     max-width: 350px;
     margin: 0 auto;
+    overflow: visible;
+    
+}
+
+.card-link:hover .card {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+    transform: translateY(-10px);
 }
 
 /* Botón destacado */
@@ -90,7 +97,7 @@ h1 {
     margin-bottom: 1em;
     text-align: center;
     background-color: var(--color-primary);
-    color: #23c1dd;
+    color: #2326dd;
 }
 
 .form-section {
@@ -99,7 +106,7 @@ h1 {
     border-radius: 1em;
     max-width: 500px;
     margin: 2em auto;
-    box-shadow: 0 2px 12px rgba(42, 122, 228, 0.07);
+    box-shadow: 0 2px 12px rgba(45, 136, 255, 0.07);
     animation: fadeIn 0.8s;
 }
 
@@ -146,8 +153,9 @@ form textarea:focus {
     min-width: 120px;
 }
 
+
 #btn-enviar {
-    background: #0c10ff;
+    background: #0d55f1;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -342,15 +350,14 @@ nav {
     padding: 1em;
     border-radius: 0.7em;
     background: var(--color-bg);
-    box-shadow: 0 1px 4px rgba(42, 122, 228, 0.04);
-    transition: box-shadow 0.2s;
+    box-shadow: 0 8px 20px 0 rgba(10, 255, 10, 0.35);
 }
 
 article:hover,
 section:hover,
 aside:hover,
 nav:hover {
-    box-shadow: 0 10px 16px rgba(30, 120, 236, 0.1);
+    box-shadow: 0 10px 16px rgba(255, 0, 0, 0.1);
 }
 
 h2,
